@@ -1,0 +1,212 @@
+.section-xl {
+	padding: 70px 0;
+}
+
+
+
+@media (max-width: 991.98px) {
+	
+	section.section-lg:first-of-type,
+	section.section-xl:first-of-type,
+}
+
+@media (min-width: 768px) {
+	.section-sm {
+		padding: 60px 0;
+	}
+	.section-md {
+		padding: 70px 0;
+	}
+	.section-lg {
+		padding: 85px 0;
+	}
+	.section-xl {
+		padding: 100px 0;
+	}
+	.section-xxl {
+		padding: 110px 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.section-md {
+		padding: 80px 0 90px;
+	}
+	.section-lg {
+		padding: 100px 0;
+	}
+	.section-xl {
+		padding: 115px 0;
+	}
+	.section-xxl {
+		padding: 145px 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section-lg {
+		padding: 115px 0;
+	}
+	.section-xl {
+		padding: 135px 0;
+	}
+	.section-xxl {
+		padding: 175px 0;
+	}
+}
+
+.box-img-animate {
+	text-align: center;
+}
+
+.box-img-animate .box-img-animate-item {
+	display: inline-block;
+}
+
+.box-img-animate .box-img-animate-item img {
+	border-radius: 6px;
+	box-shadow: 8px 14px 40px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1199.98px) {
+	.box-img-animate .box-img-animate-item + .box-img-animate-item {
+		margin-top: 20px;
+	}
+	.box-img-animate .box-img-animate-item {
+		padding: 0 15px;
+	}
+}
+@media (min-width: 1200px) {
+	.innset-xl-left-30 {
+		padding-left: 30px;
+	}
+	.innset-xl-left-70 {
+		padding-left: 70px;
+	}
+	.innset-xl-right-30 {
+		padding-right: 30px;
+	}
+	.innset-xl-right-50 {
+		padding-right: 50px;
+	}
+}
+.row-50 {
+	margin-bottom: -50px;
+}
+
+.row-50:empty {
+	margin-bottom: 0;
+}
+
+.row-50 > * {
+	margin-bottom: 50px;
+}
+.text-opacity-80 {
+	opacity: .8;
+}
+
+.box-icon-modern {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.box-icon-modern > * + * {
+	margin-top: 25px;
+}
+
+@media (min-width: 576px) {
+	.box-icon-modern {
+		flex-direction: row;
+		text-align: left;
+	}
+	.box-icon-modern > * + * {
+		margin-top: 0;
+		margin-left: 30px;
+	}
+	.box-icon-modern .box-icon-inner:before {
+		left: 70%;
+	}
+}
+
+.box-icon-modern .box-icon-caption * + p {
+	margin-top: 5px;
+}
+
+.box-icon-modern .decorate-triangle:before {
+	border-width: 0 16px 28px 16px;
+}
+
+.box-icon-modern .decorate-circle:before {
+	width: 35px;
+	height: 35px;
+}
+
+.box-icon-modern .decorate-rectangle:before {
+	width: 25px;
+	height: 25px;
+}
+
+.box-icon-modern:hover .decorate-triangle:before {
+	transform: rotate(175deg) translate(15px, 15px);
+}
+
+.box-icon-modern:hover .decorate-circle:before {
+	transform: translate(-45px, 2px);
+}
+
+.box-icon-modern:hover .decorate-rectangle:before {
+	transform: rotate(-90deg) translateY(-40px);
+}
+
+.icon-xl {
+	font-size: 70px;
+	line-height: 79px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
